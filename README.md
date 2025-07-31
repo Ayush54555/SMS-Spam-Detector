@@ -2,7 +2,7 @@
 
 This is a simple and stylish web app built with **Streamlit** that detects whether an SMS or email message is spam or not using a Machine Learning model.
 
-![Spam Detector UI](https://github.com/Ayush54555/SMS-Spam-Detector/raw/main/preview.jpg)
+![Spam Detector UI](https://github.com/Ayush54555/SMS-Spam-Detector/raw/main/preview.png)
 
 ---
 
