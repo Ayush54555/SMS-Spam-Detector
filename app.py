@@ -11,7 +11,10 @@ ps = PorterStemmer()
 
 def transform_text(text):
     text = text.lower()
-    text = nltk.word_tokenize(text)
+    from nltk.tokenize import TreebankWordTokenizer
+    tokenizer = TreebankWordTokenizer()
+    text = tokenizer.tokenize(text)
+
     y = [i for i in text if i.isalnum()]
     y = [i for i in y if i not in stopwords.words('english') and i not in string.punctuation]
     y = [ps.stem(i) for i in y]
